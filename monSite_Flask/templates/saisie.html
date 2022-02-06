@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Publication</title>
+		<link rel="stylesheet" href="/static/Col.css">
+	</head>
+	
+	<div class="menu">
+		<span class="bouton"><a href='/home'><img id="acne" src="/static/images/accueil.png"></a></span>
+		<span class="bouton"><a href='/images'><img id="acne" src="/static/images/images.png"></a></span>
+		<span class="bouton"><a href='/vidéos'><img id="acne" src="/static/images/video.png"></a></span>
+	</div>
+	
+	<body>
+		
+		<div class="corps">
+			
+			<h1>Ajouter une video</h1>
+			
+			<p>Renseignez tous les champs suivants:</p>
+			
+			<form action="/saisir" method="post">
+						
+						<label>Titre</label> : <input type="text" name="Titre" />
+						<label>Lien</label> : <input type="text" name="Lien" />
+						<label>Catégorie</label> : <input type="text" name="Catégorie" />
+						<label>Utilisateur</label> : <input type="text" name="Utilisateur" />
+						<input type="submit" value="Envoyer" />
+				
+			</form>	
+
+		</div>
+
+	</body>
+
+</html>
+
+		

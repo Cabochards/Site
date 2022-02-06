@@ -1,0 +1,14 @@
+Commandes videos
+INSERT INTO vidéos
+VALUES("14 Juillet","https://cdn.discordapp.com/attachments/828370596622106644/935300825620828242/1481668071437869060.mp4,"Snapchat","@Kier")
+INSERT INTO vidéos
+VALUES("14 Juillet",https://cdn.discordapp.com/attachments/828370596622106644/940000143837655060/videoplayback.mp4,"Snapchat","@Kier")
+
+Commandes images
+INSERT INTO images
+VALUES("Dembele","https://cdn.discordapp.com/attachments/828370596622106644/939268391166967838/IMG_1476.jpg","Sport","@Kier")
+INSERT INTO images
+VALUES("Evno qui respire tres fort","https://cdn.discordapp.com/attachments/828370596622106644/935581572181151774/20220125_180657.jpg","Lycee","@Kier")
+
+
+

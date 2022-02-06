@@ -1,0 +1,76 @@
+h1
+{	
+	text-align: left;
+	background-color: #62d089;
+	font-family: Arial,Helvetica,sans-serif;
+	color: 	#232723;
+	border-style: solid;
+    border-color: #62d089;
+}
+
+h2 
+{	
+	font-family: Arial,Helvetica,sans-serif;
+	color: 	#232723;
+	background-color: #62d089;
+}
+
+html
+{	
+	background-color: #62d089;
+	
+}
+
+p
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: 	#232723;
+	background-color: #62d089;
+}
+
+label
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: 	#232723;
+	background-color: #62d089;
+}
+
+img
+{
+	border-style: solid;
+	border-color: 	#232723;
+	border-width: 1px;
+	width: 400;
+	height: 500px;
+}
+#suivant
+{
+
+     width: 400;
+	height: 500px;
+}
+a
+{	
+	font-family: Arial,Helvetica,sans-serif;
+	color:	#232723;
+	background-color: #62d089;
+
+}
+
+ul
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color:  #232723;
+	background-color: #62d089;
+}
+
+#acne
+{
+	width: 45px;
+	height: 45px;
+}
+
+
+
+
+

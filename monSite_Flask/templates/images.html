@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+	
+	<head>
+
+		<meta charset="utf-8">
+		<title>Images Masterclass</title>
+		<link rel="stylesheet" href="/static/Col.css">
+
+	</head>
+	
+	<div class="menu">
+
+		<span class="bouton"><a href='/home'><img id="acne" src="/static/images/accueil.png" ></a></span>
+		<span class="bouton"><a href='/vidéos'><img id="acne" src="/static/images/video.png"></a></span>
+		<span class="bouton"><a href='/saisir'><img id="acne" src="/static/images/upload.png"></a></span>
+
+	</div>
+	
+	<body>
+		
+		<h1>Les memes qui te mdr(édition.images)</h1>
+	
+		<div class="corps">
+			
+			<ul>
+				{% for meme in memes%}
+				<h2> [{{ meme[2] }}]: {{ meme[0] }}</h2>
+				<p>Publié par {{ meme[3] }}</p>
+				<img id="sheesh" src="{{ meme[1] }}"/>
+				<br> 
+				{% endfor %}
+			</ul>
+		
+		</div>
+
+	</body>
+
+</html>
+		
